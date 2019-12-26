@@ -1,24 +1,5 @@
 Python 3.8.1 (tags/v3.8.1:1b293b6, Dec 18 2019, 22:39:24) [MSC v.1916 32 bit (Intel)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
->>> numero1=5
->>> numero2=7
->>> if numero1>numero2:
-... print("bla bla")
-  File "<stdin>", line 2
-    print("bla bla")
-    ^
-IndentationError: expected an indented block
->>> if numero1<numero2:
-... print("el numero 2 es mayor")
-  File "<stdin>", line 2
-    print("el numero 2 es mayor")
-    ^
-IndentationError: expected an indented block
->>> ir numero2>numero1:
-  File "<stdin>", line 1
-    ir numero2>numero1:
-       ^
-SyntaxError: invalid syntax
 >>> if numero2>numero1:
 ...    print("el numero 2 es mayor")
 ... else:
